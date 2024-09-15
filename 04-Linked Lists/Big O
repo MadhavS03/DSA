@@ -1,0 +1,24 @@
+Big O of LL methods:
+
+-> APPEND NEW NODE TO THE LAST: last node point to it and tail will point to it and then add it to the list
+O(1)
+
+-> REMOVE NODE FROM LAST: iterate through the list from the start to get to the pointer that point to the new last node and then set tail equal to it and point it 
+O(n)
+
+-> ADDING NODE TO THE HEAD: point new node to current head and set head pointer equal to new node
+O(1)
+
+-> REMOVE HEAD NODE: point head to next node, remove the current item 
+O(1)
+
+-> ADDING SOMEWHERE IN MIDDLE: iterate through to get to the node to point to the new node, point the new node to the next node , point the previous to new
+O(n)
+
+iterating - O(n)
+
+-> REMOVING SOMEWHERE FROM MIDDLE: iterate and get to the node, point previous of that to the next and remove the node
+O(n)
+
+-> LOOKUP WITH A LL: iterate through the list until you find the node
+O(n)

@@ -1,0 +1,9 @@
+LIFO
+ways to implement a stack:
+- in a list -> one end will be used to add or remove
+- adding or removing from the last - O(1)
+- from first - O(n)
+
+- linked list -> is from head to tail
+head at top , and pointing towards till tail , as adding and removing is O(1) 
+if we use it from the top
