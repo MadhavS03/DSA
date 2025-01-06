@@ -1,0 +1,26 @@
+Contains verices(vertex) with edges(connection) between them.
+no limit to how many other verices, a vertex can connect to
+edges can also have weights 
+can be directional or bi-directional
+
+Trees are a form of graphs
+-each node can only point to 2 other nodes
+
+Linked List are a form of tree:
+-can only point to one other node
+
+Linked list is a form of graphs
+
+Reprsenting in 2 ways:
+
+Adjacency Matrix:
+->bi directional
+->can be weighted
+
+Adjacency List:
+->dicitonary 
+->key value pair
+-> key is vertex
+   value is list of edges with the vertex(key)
+
+Adjacency List is used for graphs

@@ -1,0 +1,12 @@
+Collision happens when there is more than one key-value pair at an address.
+
+how do we do that without over-writing last one?
+both of them exist withing another list at the same address
+-> This is called Separate Chaining
+
+Another way to deal with it:
+we put the new key-value pair at an empty address until we find it.
+you don't have more than 1 key-value pair at one address
+-> called Linear Probing (open addressing)
+
+We can use linked list than a list in Separate chaining for dealing with collisions.

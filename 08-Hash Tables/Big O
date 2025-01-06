@@ -1,0 +1,6 @@
+hash function - O(1)
+set item - O(1) (appending)
+
+
+get item - O(1)
+worst case - O(n) ( if all key-value pairs are at one address)

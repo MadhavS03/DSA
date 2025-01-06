@@ -1,0 +1,13 @@
+FIFO
+Enqueue - Add 
+Dequeue - remove
+ways to implement a Queue:
+- in a List -> add on one end and remove on other end
+            -> from one end adding and removing is O(1)
+            -> from other end adding and removing is O(n)
+
+- in a Linked List -> removing is O(n) from end
+                   -> adding is O(n) from end
+                   -> adding & removing is O(1) from start
+
+Therefore Enqueue from end and Dequeue from start as both O(1)

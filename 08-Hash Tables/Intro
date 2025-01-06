@@ -1,0 +1,21 @@
+For example Taking a address space from 0-7 which would be a list
+
+Built in hash tables - Dictionary (Key-value pairs)
+eg: {"nail": 1000}
+
+How a hash table works:
+-> has a hash function
+-> Perform a hash on the key {"nails"}, run the key through the hash
+-> we get an address with the key-value pair , eg: 2 - {"nail": 1000}
+-> now we store the key-value pair to address 2
+Also how a dictionary is stored
+
+2 Hash characteristics:
+-> One way only
+-> Deterministic
+
+Creating our :
+own dictionary, 
+own address space by creating a list
+
+We can store more than one in one address space, but some conditions.

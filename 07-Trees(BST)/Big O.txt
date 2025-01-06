@@ -1,0 +1,28 @@
+worst case - O(n) -> a straight line which would be a linked list
+
+O(log n) - BST
+lookup() - O(log n)
+insert() - O(log n)
+remove() - O(log n)
+
+Comparing with linked list :
+
+Lookup:
+BST is better as 
+linked list lookup() -> O(n) - Iterating
+BST lookup() -> O(log n)
+ O(log n) better than O(n)
+
+Remove:
+BST is better as
+Linked list -> O(n) - iterating then remove
+BST -> O(log n)
+
+Insert:
+Linked list is better as
+Linked list -> O(1) -> add in the end directly
+BST -> O(log n)
+
+Q - What would you choose if you need to add data to a data structure fast and retreival speed is not imp
+    BST or Linked List?
+A- Linked List is better here.

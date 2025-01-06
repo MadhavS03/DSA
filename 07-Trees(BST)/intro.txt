@@ -1,0 +1,21 @@
+Data structure in the form of a tree
+can be seen as a linked list
+
+Root node will point left right to other nodes
+
+Binary tree - when one node only points to 2 other nodes
+1 parent node - 2 child nodes
+
+Full Tree - Every node point to either 2 or 0 nodes
+Perfect Tree - Any level is completely filled all across
+Complete Tree - When the tree is filled from left to right without gaps
+
+Every node can only have 1 parent
+child nodes can also be parent nodes
+
+The node that doesn't have any children are - Leaf nodes
+
+Binary Search Tree (BST):
+If the value of the new node is greater than the parent node it will go in the right
+If the value of the new node is lesser than the parent node it will go in the left
+

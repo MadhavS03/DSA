@@ -1,0 +1,33 @@
+Space complexity:
+
+Adjacency Matrix-> O(|V|^2)
+Adjacency List-> O(|V| + |E|)
+
+V-vertices
+E-edges
+
+Time:
+
+ADDING A VERTEX:
+
+Adjacency Matrix-> O(|V|^2)
+Adjacency List-> O(1)
+
+ADDING AN EDGE:
+
+Adjacency Matrix-> O(1) 
+Adjacency List-> O(1)
+
+REMOVING AN EDGE:
+
+Adjacency Matrix-> O(1) 
+Adjacency List-> O(|E|) (iterating through the edges list)
+
+REMOVING A VERTEX:
+
+Adjacency Matrix-> O(|V|^2) 
+Adjacency List-> O(|V| + |E|)  (efficieny if you have a bidirectional list)
+
+Adjacency List will be used for graphs
+Adjacency Matrix also stores 0 where there is no edge 
+not good for a bigger data
